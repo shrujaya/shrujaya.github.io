@@ -2,12 +2,25 @@
 body {
     font-family: Work Sans, sans-serif;
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
 
-img {
-    width: 25%;
-    height: auto;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.about-pic {
     float: left;
+    width: 25%;
     margin-right: 20px;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
